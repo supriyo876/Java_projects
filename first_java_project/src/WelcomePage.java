@@ -9,7 +9,7 @@ public class WelcomePage extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        JLabel lbl = new JLabel("Welcome, " + username + "!", SwingConstants.CENTER);
+        JLabel lbl = new JLabel("Welcome to the login app  " + username + "!", SwingConstants.CENTER);
         lbl.setFont(new Font("Arial", Font.BOLD, 16));
         add(lbl);
 
